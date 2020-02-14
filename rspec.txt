@@ -1,0 +1,11 @@
+
+SP_IG_Import_MasterData
+[32m  creates a new record[0m
+[32m  does not creates a record with blank CostCenterNumber[0m
+[32m  creates a record with blank CostCenterName[0m
+[32m  does not creates duplicate records[0m
+[32m  updates existing record[0m
+
+Finished in 4.26 seconds (files took 1.12 seconds to load)
+[32m5 examples, 0 failures[0m
+

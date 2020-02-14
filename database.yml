@@ -1,0 +1,33 @@
+# Database connection.
+
+# Slacker supports odbc and tiny_tds.
+# When not set, driver defaults to odbc for backward compatibility.
+# The odbc driver is easier to set up on Windows, but tiny_tds is recommended
+# if you intend to run slacker cross-platform.
+# See https://github.com/vassilvk/slacker/wiki/Slacker-Project#odbc-vs-tds for more information.
+driver: odbc
+
+# Enable connections to azure databases.
+# Applies only to tiny_tds driver.
+azure: false
+
+# Full instance name when using odbc; hostname or IP when using tiny_tds.
+server: 10.140.10.3
+
+# Port is used by tiny_tds only. Defaults to 1433 when not set.
+# Use server and port when targeting named instances with tiny_tds.
+port: 1433
+
+# The target database.
+#database: CCW_UnitTest
+database: NA1_RELEASE_DEV
+
+# Slacker supports only SQL Server authentication.
+#user: slacker_login
+#password: ?4SkcU<%
+
+user: stwebuser_UB
+password: qwerty@123
+
+# Set this to false when using alternative formatters such as -fh and fj.
+console_enabled: true

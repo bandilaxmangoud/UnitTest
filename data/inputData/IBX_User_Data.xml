@@ -1,0 +1,198 @@
+<root>
+#1.new record and User Role
+  <row>
+    <Column1>102220</Column1>
+    <Column2>Mark1</Column2>
+    <Column3>Wright1</Column3>
+    <Column4>F.</Column4>
+    <Column5>MARK.WRIGHT1@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>
+#2.Duplicate EMP ID
+  <row>
+    <Column1>102220</Column1>
+    <Column2>Mark12</Column2>
+    <Column3>Wright12</Column3>
+    <Column4>F.</Column4>
+    <Column5>MARK.WRIGHT12@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>  
+#3.Duplicate EMAIL ID
+  <row>
+    <Column1>102221</Column1>
+    <Column2>Mark123</Column2>
+    <Column3>Wright123</Column3>
+    <Column4>F.</Column4>
+    <Column5>MARK.WRIGHT1@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>
+#4.Blank EMP ID
+  <row>
+    <Column1></Column1>
+    <Column2>user_fname1</Column2>
+    <Column3>user_lname1</Column3>
+    <Column4>F.</Column4>
+    <Column5>user_fname1.lname1@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>     
+#5.Blank FirstName
+  <row>
+    <Column1>10002</Column1>
+    <Column2></Column2>
+    <Column3>user_lname2</Column3>
+    <Column4>F.</Column4>
+    <Column5>user_fname2.lname2@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>
+#6.Blank LastName
+  <row>
+    <Column1>10003</Column1>
+    <Column2>user_fname3</Column2>
+    <Column3></Column3>
+    <Column4>F.</Column4>
+    <Column5>user_fname3.lname3@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>
+#7.Blank EmailID
+  <row>
+    <Column1>10004</Column1>
+    <Column2>user_fname4</Column2>
+    <Column3>user_lname4</Column3>
+    <Column4>F.</Column4>
+    <Column5></Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>
+#8.Blank User Role
+  <row>
+    <Column1>10005</Column1>
+    <Column2>user_fname5</Column2>
+    <Column3>user_lname5</Column3>
+    <Column4>F.</Column4>
+    <Column5>user_fname5.lname5@hcmondemand.net</Column5>
+    <Column6></Column6>
+    <Column7>26288</Column7>
+    <Column8>Dir Product Administration</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>25211</Column11>
+  </row>     
+#9.Blank Optional Fields
+  <row>
+    <Column1>10006</Column1>
+    <Column2>user_fname6</Column2>
+    <Column3>user_lname5</Column3>
+    <Column4></Column4>
+    <Column5>user_fname6.lname6@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7></Column7>
+    <Column8></Column8>
+    <Column9></Column9>
+    <Column10></Column10>
+    <Column11></Column11>
+  </row>
+#10.Update FirstName
+  <row>
+    <Column1>28550</Column1>
+    <Column2>Lovitz1</Column2>
+    <Column3>David</Column3>
+    <Column4>C.</Column4>
+    <Column5>David.Lovitz@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Sr Research Analyst</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>64013</Column11>
+  </row>
+#11.Update LastName
+  <row>
+    <Column1>29252</Column1>
+    <Column2>McGinley</Column2>
+    <Column3>Thomas2</Column3>
+    <Column4></Column4>
+    <Column5>THOMAS.MCGINLEY@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Sr Business Analyst</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>64013</Column11>
+  </row>
+#12.Update EmailID
+  <row>
+    <Column1>7470</Column1>
+    <Column2>Hartnett</Column2>
+    <Column3>Julia</Column3>
+    <Column4>R.</Column4>
+    <Column5>JULIA.HARTNETT3@hcmondemand.net</Column5>
+    <Column6>Primary Manager</Column6>
+    <Column7>26288</Column7>
+    <Column8>Manager, Product Analytics</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>64013</Column11>
+  </row>
+#13.Update User Role
+  <row>
+    <Column1>9934</Column1>
+    <Column2>Ryzinsky</Column2>
+    <Column3>Marina</Column3>
+    <Column4>J.</Column4>
+    <Column5>MARINA.RYZINSKY2@hcmondemand.net</Column5>
+    <Column6>Super Program Admin</Column6>
+    <Column7>26288</Column7>
+    <Column8>Sr Research Analyst</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>64013</Column11>
+  </row>
+#14.User Association
+  <row>
+    <Column1>120334</Column1>
+    <Column2>User</Column2>
+    <Column3>Associate</Column3>
+    <Column4>J.</Column4>
+    <Column5>user.associate@hcmondemand.net</Column5>
+    <Column6>Super Program Admin</Column6>
+    <Column7>26288</Column7>
+    <Column8>Sr Research Analyst</Column8>
+    <Column9>75000.00</Column9>
+    <Column10>10222</Column10>
+    <Column11>83111</Column11>
+  </row>
+</root>

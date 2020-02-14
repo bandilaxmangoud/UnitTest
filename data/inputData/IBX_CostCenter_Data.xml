@@ -1,0 +1,31 @@
+<root>
+#New record
+  <row>
+    <Column1>Test00100</Column1>
+    <Column2>Test-Desc1</Column2>
+  </row> 
+#CostCenterNumber Blank
+  <row>
+    <Column1></Column1>
+    <Column2>Test-Desc2</Column2>
+  </row>
+#Duplicate Records
+  <row>
+    <Column1>Test00300</Column1>
+    <Column2>Test-Desc3</Column2>
+  </row>          
+  <row>
+    <Column1>Test00300</Column1>
+    <Column2>Test-Desc3</Column2>
+  </row>
+#CostCenterName Blank
+  <row>
+    <Column1>Test00400</Column1>
+    <Column2></Column2>
+  </row>
+#Update existing record
+  <row>
+    <Column1>67322</Column1>
+    <Column2>(AHA)</Column2>
+  </row>
+</root>
